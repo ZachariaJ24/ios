@@ -8,7 +8,7 @@
 
 #import "GNCustomHeaders.h"
 
-static NSString * kOurRequestProperty = @"co.median.ios.GNCustomHeaders";
+static NSString * kOurRequestProperty = @"secretchelsocietyintl.scs.GNCustomHeaders";
 
 @interface GNCustomHeaders()
 @property NSArray<WKBackForwardListItem *> *backHistory;

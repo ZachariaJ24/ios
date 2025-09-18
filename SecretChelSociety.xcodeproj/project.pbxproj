@@ -133,22 +133,22 @@
 /* Begin PBXFileReference section */
 		0B6D83597DFB31F85DB20AAC /* Pods_MedianIOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MedianIOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DD94C00913035D3ECC196A1 /* Pods_SecretChelSociety.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SecretChelSociety.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2002B49818A9991300495B3D /* Median.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Median.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2002B49818A9991300495B3D /* SecretChelSociety.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecretChelSociety.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2002B49B18A9991300495B3D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2002B49D18A9991300495B3D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		2002B49F18A9991300495B3D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		2002B4A318A9991300495B3D /* MedianIOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MedianIOS-Info.plist"; sourceTree = "<group>"; };
+		2002B4A318A9991300495B3D /* SecretChelSociety-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SecretChelSociety-Info.plist"; sourceTree = "<group>"; };
 		2002B4A518A9991300495B3D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2002B4A718A9991300495B3D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2002B4A918A9991300495B3D /* MedianIOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MedianIOS-Prefix.pch"; sourceTree = "<group>"; };
+		2002B4A918A9991300495B3D /* SecretChelSociety-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SecretChelSociety-Prefix.pch"; sourceTree = "<group>"; };
 		2002B4AA18A9991300495B3D /* LEANAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LEANAppDelegate.h; sourceTree = "<group>"; };
 		2002B4AB18A9991300495B3D /* LEANAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LEANAppDelegate.m; sourceTree = "<group>"; };
 		2002B4AE18A9991300495B3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2002B4B318A9991300495B3D /* LEANWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LEANWebViewController.h; sourceTree = "<group>"; };
 		2002B4B418A9991300495B3D /* LEANWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LEANWebViewController.m; sourceTree = "<group>"; };
 		2002B4B618A9991300495B3D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		2002B4BC18A9991300495B3D /* MedianIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedianIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2002B4C518A9991300495B3D /* MedianIOSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MedianIOSTests-Info.plist"; sourceTree = "<group>"; };
+		2002B4BC18A9991300495B3D /* SecretChelSocietyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedianIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2002B4C518A9991300495B3D /* SecretChelSocietyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MedianIOSTests-Info.plist"; sourceTree = "<group>"; };
 		2002B4C718A9991300495B3D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2002B4C918A9991300495B3D /* LeanIOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeanIOSTests.m; sourceTree = "<group>"; };
 		2002B4D918A99A9900495B3D /* RECommonFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RECommonFunctions.h; sourceTree = "<group>"; };
@@ -340,8 +340,8 @@
 		2002B49918A9991300495B3D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2002B49818A9991300495B3D /* Median.app */,
-				2002B4BC18A9991300495B3D /* MedianIOSTests.xctest */,
+				2002B49818A9991300495B3D /* SecretChelSociety.app */,
+				2002B4BC18A9991300495B3D /* SecretChelSocietyTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -478,10 +478,10 @@
 		2002B4A218A9991300495B3D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				2002B4A318A9991300495B3D /* MedianIOS-Info.plist */,
+				2002B4A318A9991300495B3D /* SecretChelSociety-Info.plist */,
 				2002B4A418A9991300495B3D /* InfoPlist.strings */,
 				2002B4A718A9991300495B3D /* main.m */,
-				2002B4A918A9991300495B3D /* MedianIOS-Prefix.pch */,
+				2002B4A918A9991300495B3D /* SecretChelSociety-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -498,7 +498,7 @@
 		2002B4C418A9991300495B3D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				2002B4C518A9991300495B3D /* MedianIOSTests-Info.plist */,
+				2002B4C518A9991300495B3D /* SecretChelSocietyTests-Info.plist */,
 				2002B4C618A9991300495B3D /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -586,10 +586,10 @@
 			);
 			name = SecretChelSociety;
 			productName = LeanIOS;
-			productReference = 2002B49818A9991300495B3D /* Median.app */;
+			productReference = 2002B49818A9991300495B3D /* SecretChelSociety.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2002B4BB18A9991300495B3D /* MedianIOSTests */ = {
+		2002B4BB18A9991300495B3D /* SecretChelSocietyTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2002B4D018A9991300495B3D /* Build configuration list for PBXNativeTarget "MedianIOSTests" */;
 			buildPhases = (
@@ -603,9 +603,9 @@
 			dependencies = (
 				2002B4C218A9991300495B3D /* PBXTargetDependency */,
 			);
-			name = MedianIOSTests;
+			name = SecretChelSocietyTests;
 			productName = LeanIOSTests;
-			productReference = 2002B4BC18A9991300495B3D /* MedianIOSTests.xctest */;
+			productReference = 2002B4BC18A9991300495B3D /* SecretChelSocietyTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -677,7 +677,7 @@
 			projectRoot = "";
 			targets = (
 				2002B49718A9991300495B3D /* SecretChelSociety */,
-				2002B4BB18A9991300495B3D /* MedianIOSTests */,
+				2002B4BB18A9991300495B3D /* SecretChelSocietyTests */,
 			);
 		};
 /* End PBXProject section */
@@ -1076,8 +1076,8 @@
 					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "LeanIOS/MedianIOS-Prefix.pch";
-				INFOPLIST_FILE = "LeanIOS/MedianIOS-Info.plist";
+				GCC_PREFIX_HEADER = "LeanIOS/SecretChelSociety-Prefix.pch";
+				INFOPLIST_FILE = "LeanIOS/SecretChelSociety-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1120,8 +1120,8 @@
 					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "LeanIOS/MedianIOS-Prefix.pch";
-				INFOPLIST_FILE = "LeanIOS/MedianIOS-Info.plist";
+				GCC_PREFIX_HEADER = "LeanIOS/SecretChelSociety-Prefix.pch";
+				INFOPLIST_FILE = "LeanIOS/SecretChelSociety-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1163,7 +1163,7 @@
 				);
 				INFOPLIST_FILE = "LeanIOSTests/MedianIOSTests-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.gonative.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = MedianIOSTests;
+				PRODUCT_NAME = SecretChelSocietyTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -1183,7 +1183,7 @@
 				GCC_PREFIX_HEADER = "LeanIOS/GonativeIOS-Prefix.pch";
 				INFOPLIST_FILE = "LeanIOSTests/MedianIOSTests-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.gonative.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = MedianIOSTests;
+				PRODUCT_NAME = SecretChelSocietyTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};

@@ -1,4 +1,4 @@
-function medianDownloadBlobUrl(url, id, filename) {
+function secretChelSocietyDownloadBlobUrl(url, id, filename) {
 	var req = new XMLHttpRequest();
 	req.open('GET', url, true);
 	req.responseType = 'blob';

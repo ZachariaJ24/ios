@@ -54,7 +54,7 @@ function addCommand(command, params, persistCallback){
         if(params.statuscallback && typeof params.statuscallback === 'function'){
             params.statuscallback = addCallbackFunction(params.statuscallback, persistCallback);
         }
-        commandObject.medianCommand = command;
+        commandObject.secretChelSocietyCommand = command;
         commandObject.data = params;
     } else commandObject = command;
 
@@ -65,182 +65,182 @@ function addCommand(command, params, persistCallback){
 ////    General Commands   ////
 ///////////////////////////////
 
-var median = {};
+var secretChelSociety = {};
 
 // to be modified as required
-median.nativebridge = {
+secretChelSociety.nativebridge = {
     custom: function (params){
-        addCommand("median://nativebridge/custom", params);
+        addCommand("secretchelsociety://nativebridge/custom", params);
     },
     multi: function (params){
-        addCommand("median://nativebridge/multi", params);
+        addCommand("secretchelsociety://nativebridge/multi", params);
     }
 };
 
-median.registration = {
+secretChelSociety.registration = {
     send: function(customData){
         var params = {customData: customData};
-        addCommand("median://registration/send", params);
+        addCommand("secretchelsociety://registration/send", params);
     }
 };
 
-median.sidebar = {
+secretChelSociety.sidebar = {
     setItems: function (params){
-        addCommand("median://sidebar/setItems", params);
+        addCommand("secretchelsociety://sidebar/setItems", params);
     },
     getItems: function (params){
-        return addCommandCallback("median://sidebar/getItems", params);
+        return addCommandCallback("secretchelsociety://sidebar/getItems", params);
     }
 };
 
-median.tabNavigation = {
+secretChelSociety.tabNavigation = {
     selectTab: function (tabIndex){
-        addCommand("median://tabs/select/" + tabIndex);
+        addCommand("secretchelsociety://tabs/select/" + tabIndex);
     },
     deselect: function (){
-        addCommand("median://tabs/deselect");
+        addCommand("secretchelsociety://tabs/deselect");
     },
     setTabs: function (tabs){
-        addCommand("median://tabs/setTabs", { tabs });
+        addCommand("secretchelsociety://tabs/setTabs", { tabs });
     }
 };
 
-median.share = {
+secretChelSociety.share = {
     sharePage: function (params){
-        addCommand("median://share/sharePage", params);
+        addCommand("secretchelsociety://share/sharePage", params);
     },
     downloadFile: function (params) {
-        return addCommandCallback("median://share/downloadFile", params);
+        return addCommandCallback("secretchelsociety://share/downloadFile", params);
     },
     downloadImage: function (params){
-        return addCommandCallback("median://share/downloadImage", params);
+        return addCommandCallback("secretchelsociety://share/downloadImage", params);
     }
 };
 
-median.open = {
+secretChelSociety.open = {
     appSettings: function (){
-        addCommand("median://open/app-settings");
+        addCommand("secretchelsociety://open/app-settings");
     }
 };
 
-median.permissions = {
+secretChelSociety.permissions = {
     status: function (permissions) {
-        return addCommandCallback("median://permissions/status", { permissions });
+        return addCommandCallback("secretchelsociety://permissions/status", { permissions });
     }
 };
 
-median.webview = {
+secretChelSociety.webview = {
     clearCache: function(){
-        addCommand("median://webview/clearCache");
+        addCommand("secretchelsociety://webview/clearCache");
     },
     clearCookies: function(){
-        addCommand("median://webview/clearCookies");
+        addCommand("secretchelsociety://webview/clearCookies");
     },
     reload: function () {
-        addCommand("median://webview/reload");
+        addCommand("secretchelsociety://webview/reload");
     }
 };
 
-median.keyboard = {
+secretChelSociety.keyboard = {
     info: function (params) {
-        return addCommandCallback("median://keyboard/info", params);
+        return addCommandCallback("secretchelsociety://keyboard/info", params);
     },
     listen: function (callback) {
-        addCommand("median://keyboard/listen", { callback });
+        addCommand("secretchelsociety://keyboard/listen", { callback });
     },
     showAccessoryView: function (visible) {
-        addCommand("median://keyboard/showAccessoryView", { visible });
+        addCommand("secretchelsociety://keyboard/showAccessoryView", { visible });
     }
 };
 
-median.webconsolelogs = {
+secretChelSociety.webconsolelogs = {
     print: function(params){
-        addCommand("median://webconsolelogs/print", params);
+        addCommand("secretchelsociety://webconsolelogs/print", params);
     }
 }
 
-median.config = {
+secretChelSociety.config = {
     set: function(params){
-        addCommand("median://config/set", params);
+        addCommand("secretchelsociety://config/set", params);
     }
 };
 
-median.contextMenu = {
+secretChelSociety.contextMenu = {
     setEnabled: function(enabled){
-        addCommand("median://contextMenu/setEnabled", { enabled });
+        addCommand("secretchelsociety://contextMenu/setEnabled", { enabled });
     },
     setLinkActions: function(actions){
-        addCommand("median://contextMenu/setLinkActions", { actions });
+        addCommand("secretchelsociety://contextMenu/setLinkActions", { actions });
     }
 };
 
-median.navigationTitles = {
+secretChelSociety.navigationTitles = {
     set: function (parameters){
         var params = {
             persist: parameters.persist,
             data: parameters
         };
-        addCommand("median://navigationTitles/set", params);
+        addCommand("secretchelsociety://navigationTitles/set", params);
     },
     setCurrent: function (params){
-        addCommand("median://navigationTitles/setCurrent", params);
+        addCommand("secretchelsociety://navigationTitles/setCurrent", params);
     },
     revert: function(){
-        addCommand("median://navigationTitles/set?persist=true");
+        addCommand("secretchelsociety://navigationTitles/set?persist=true");
     }
 };
 
-median.navigationLevels = {
+secretChelSociety.navigationLevels = {
     set: function (parameters){
         var params = {
             persist: parameters.persist,
             data: parameters
         };
-        addCommand("median://navigationLevels/set", params);
+        addCommand("secretchelsociety://navigationLevels/set", params);
     },
     setCurrent: function(params){
-        addCommand("median://navigationLevels/set", params);
+        addCommand("secretchelsociety://navigationLevels/set", params);
     },
     revert: function(){
-        addCommand("median://navigationLevels/set?persist=true");
+        addCommand("secretchelsociety://navigationLevels/set?persist=true");
     }
 };
 
-median.statusbar = {
+secretChelSociety.statusbar = {
     set: function (params){
-        addCommand("median://statusbar/set", params);
+        addCommand("secretchelsociety://statusbar/set", params);
     },
     matchBodyBackgroundColor: function (params){
-        addCommand("median://statusbar/matchBodyBackgroundColor", params);
+        addCommand("secretchelsociety://statusbar/matchBodyBackgroundColor", params);
     }
 };
 
-median.screen = {
+secretChelSociety.screen = {
     setBrightness: function(data){
         var params = data;
         if(typeof params === 'number'){
             params = {brightness: data};
         }
-        addCommand("median://screen/setBrightness", params);
+        addCommand("secretchelsociety://screen/setBrightness", params);
     },
     setColorScheme: function(mode) {
-        addCommand("median://screen/setColorScheme", { mode });
+        addCommand("secretchelsociety://screen/setColorScheme", { mode });
     },
     resetColorScheme: function() {
-        addCommand("median://screen/resetColorScheme");
+        addCommand("secretchelsociety://screen/resetColorScheme");
     },
     setMode: function(params) {
         if (params && params.mode === "default") {
-            addCommand("median://screen/resetColorScheme");
+            addCommand("secretchelsociety://screen/resetColorScheme");
         } else {
-            addCommand("median://screen/setColorScheme", params);
+            addCommand("secretchelsociety://screen/setColorScheme", params);
         }
     },
     keepScreenOn: function(params){
-        addCommand("median://screen/keepScreenOn", params);
+        addCommand("secretchelsociety://screen/keepScreenOn", params);
     },
     keepScreenNormal: function(){
-        addCommand("median://screen/keepScreenNormal");
+        addCommand("secretchelsociety://screen/keepScreenNormal");
     }
 };
 
@@ -251,58 +251,58 @@ median.navigationMaxWindows = {
             autoClose: autoClose,
             persist: true
         };
-        addCommand("median://navigationMaxWindows/set", params);
+        addCommand("secretchelsociety://navigationMaxWindows/set", params);
     },
     setCurrent: function(maxWindows, autoClose){
         var params = {data: maxWindows, autoClose: autoClose};
-        addCommand("median://navigationMaxWindows/set", params);
+        addCommand("secretchelsociety://navigationMaxWindows/set", params);
     }
 }
 
 median.connectivity = {
     get: function (params){
-        return addCommandCallback("median://connectivity/get", params);
+        return addCommandCallback("secretchelsociety://connectivity/get", params);
     },
     subscribe: function (params){
-        return addCommandCallback("median://connectivity/subscribe", params, true);
+        return addCommandCallback("secretchelsociety://connectivity/subscribe", params, true);
     },
     unsubscribe: function (){
-        addCommand("median://connectivity/unsubscribe");
+        addCommand("secretchelsociety://connectivity/unsubscribe");
     }
 }
 
 median.run = {
     deviceInfo: function(){
-        addCommand("median://run/median_device_info");
+        addCommand("secretchelsociety://run/median_device_info");
     }
 };
 
-median.deviceInfo = function(params){
-    return addCommandCallback("median://run/median_device_info", params, true);
+secretChelSociety.deviceInfo = function(params){
+    return addCommandCallback("secretchelsociety://run/median_device_info", params, true);
 };
 
 median.internalExternal = {
     set: function(params){
-        addCommand("median://internalExternal/set", params);
+        addCommand("secretchelsociety://internalExternal/set", params);
     }
 };
 
 median.clipboard = {
     set: function(params){
-        addCommand("median://clipboard/set", params);
+        addCommand("secretchelsociety://clipboard/set", params);
     },
     get: function(params){
-        return addCommandCallback("median://clipboard/get", params);
+        return addCommandCallback("secretchelsociety://clipboard/get", params);
     }
 };
 
-median.window = {
+secretChelSociety.window = {
     open: function (urlString, mode) {
         var params = { url: urlString, mode };
-        addCommand("median://window/open", params);
+        addCommand("secretchelsociety://window/open", params);
     },
     close: function () {
-        addCommand("median://window/close");
+        addCommand("secretchelsociety://window/close");
     }
 }
 
@@ -315,47 +315,47 @@ median.ios = {};
 median.ios.window = {
     open: function (urlString){
         var params = {url: urlString};
-        addCommand("median://window/open", params);
+        addCommand("secretchelsociety://window/open", params);
     },
     setWindowOpenHideNavbar: function (value){
         var params = {windowOpenHideNavbar: value};
-        addCommand("median://window/setWindowOpenHideNavbar", params);
+        addCommand("secretchelsociety://window/setWindowOpenHideNavbar", params);
     }
 };
 
 median.ios.geoLocation = {
     requestLocation: function (){
-        addCommand("median://geolocationShim/requestLocation");
+        addCommand("secretchelsociety://geolocationShim/requestLocation");
     },
     startWatchingLocation: function (){
-        addCommand("median://geolocationShim/startWatchingLocation");
+        addCommand("secretchelsociety://geolocationShim/startWatchingLocation");
     },
     stopWatchingLocation: function (){
-        addCommand("median://geolocationShim/stopWatchingLocation");
+        addCommand("secretchelsociety://geolocationShim/stopWatchingLocation");
     }
 };
 
 median.ios.attconsent = {
     request: function (params){
-        return addCommandCallback("median://ios/attconsent/request", params);
+        return addCommandCallback("secretchelsociety://ios/attconsent/request", params);
     },
     status: function (params){
-        return addCommandCallback("median://ios/attconsent/status", params);
+        return addCommandCallback("secretchelsociety://ios/attconsent/status", params);
     }
 };
 
 median.ios.backgroundAudio = {
     start: function(){
-        addCommand("median://backgroundAudio/start");
+        addCommand("secretchelsociety://backgroundAudio/start");
     },
     end: function(){
-        addCommand("median://backgroundAudio/end");
+        addCommand("secretchelsociety://backgroundAudio/end");
     }
 };
 
 median.ios.contextualNavToolbar = {
     set: function (params){
-        addCommand("median://ios/contextualNavToolbar/set", params);
+        addCommand("secretchelsociety://ios/contextualNavToolbar/set", params);
     }
 };
 
@@ -374,10 +374,10 @@ function median_match_statusbar_to_body_background_color() {
     let hex = '#' + rgb[0].toString(16).padStart(2,'0') + rgb[1].toString(16).padStart(2,'0') + rgb[2].toString(16).padStart(2,'0');
     let luma = 0.2126 * rgb[0] + 0.7152 * rgb[1] + 0.0722 * rgb[2]; // per ITU-R BT.709
     if(luma > 40){
-        median.statusbar.set({'style': 'dark', 'color': hex});
+        secretChelSociety.statusbar.set({'style': 'dark', 'color': hex});
     }
     else{
-        median.statusbar.set({'style': 'light', 'color': hex});
+        secretChelSociety.statusbar.set({'style': 'light', 'color': hex});
     }
 }
 

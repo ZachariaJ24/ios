@@ -1,13 +1,13 @@
-Median iOS
-============
+Secret Chel Society iOS
+=======================
 
-This is the native iOS code used by https://median.co/
+This is the native iOS code for Secret Chel Society app.
 
 It allows the creation of full-featured native apps from existing mobile-optimized websites.
 
 How to use
-------------
+----------
 
-Build instructions at https://median.co/docs/build-ios-from-source
+Build instructions: Open in Xcode and build for your target device.
 
-Licensing information available at https://median.co/license
+Licensing information available in the project files.

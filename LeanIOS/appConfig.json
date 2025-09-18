@@ -32,7 +32,7 @@
     "androidPackageName": "secrect.chel.society",
     "androidVersionName": "1.2.2",
     "androidSigningKey": "release",
-    "injectMedianJS": true,
+    "injectSecretChelSocietyJS": true,
     "forceSessionCookieExpiry": 0,
     "iosCustomHeaders": {},
     "androidCustomHeaders": {},

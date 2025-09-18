@@ -9,7 +9,7 @@
 #import "GNConfigPreferences.h"
 #import "LEANAppDelegate.h"
 
-#define kInitialUrlKey @"co.median.ios.initialUrl"
+#define kInitialUrlKey @"secretchelsocietyintl.scs.initialUrl"
 
 @implementation GNConfigPreferences
 +(instancetype)sharedPreferences

@@ -17,7 +17,7 @@ target default_app_target do
   
   use_plugins!
 
-  target 'MedianIOSTests' do
+  target 'SecretChelSocietyTests' do
     inherit! :search_paths
     # Pods for testing
   end
