@@ -283,10 +283,7 @@
 		BBED1D602A4CBEB000180EBF /* customJS.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = customJS.js; sourceTree = "<group>"; };
 		BBED1D622A4CBEC900180EBF /* iosCustomCSS.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = iosCustomCSS.css; sourceTree = "<group>"; };
 		BBED1D642A4CBED900180EBF /* iosCustomJS.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = iosCustomJS.js; sourceTree = "<group>"; };
-		CFE73C6865B6E0760DF6FED4 /* Pods-SecretChelSociety.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecretChelSociety.debug.xcconfig"; path = "Target Support Files/Pods-SecretChelSociety/Pods-SecretChelSociety.debug.xcconfig"; sourceTree = "<group>"; };
-		F302E6C1D575FFE5B6765ABD /* Pods-SecretChelSociety.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecretChelSociety.release.xcconfig"; path = "Target Support Files/Pods-SecretChelSociety/Pods-SecretChelSociety.release.xcconfig"; sourceTree = "<group>"; };
 		F636E584CE32F782FCEB52E0 /* fr */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
-		F9BBED51E055455D5C4808AF /* Pods-SecretChelSociety.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecretChelSociety.release.xcconfig"; path = "Target Support Files/Pods-SecretChelSociety/Pods-SecretChelSociety.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -559,8 +556,6 @@
 				F9BBED51E055455D5C4808AF /* Pods-SecretChelSociety.release.xcconfig */,
 				4C74E9233A1532B38445C85A /* Pods-SecretChelSocietyTests.debug.xcconfig */,
 				A790DA6927FDBA77A0DE081F /* Pods-SecretChelSocietyTests.release.xcconfig */,
-				CFE73C6865B6E0760DF6FED4 /* Pods-SecretChelSociety.debug.xcconfig */,
-				F302E6C1D575FFE5B6765ABD /* Pods-SecretChelSociety.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -1060,7 +1055,7 @@
 		};
 		2002B4CE18A9991300495B3D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CFE73C6865B6E0760DF6FED4 /* Pods-SecretChelSociety.debug.xcconfig */;
+			baseConfigurationReference = 74686CE5E5C79A441C3D2C20 /* Pods-SecretChelSociety.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -1104,7 +1099,7 @@
 		};
 		2002B4CF18A9991300495B3D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F302E6C1D575FFE5B6765ABD /* Pods-SecretChelSociety.release.xcconfig */;
+			baseConfigurationReference = F9BBED51E055455D5C4808AF /* Pods-SecretChelSociety.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
