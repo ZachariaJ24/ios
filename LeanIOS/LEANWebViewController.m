@@ -36,7 +36,7 @@
 #import "LEANPDFManager.h"
 #import "GNRegistrationManager.h"
 #import "LEANRegexRulesManager.h"
-#import "MedianEventsManager.h"
+#import "SecretChelSocietyEventsManager.h"
 #import "LEANWebViewIntercept.h"
 #import "LEANWindowsManager.h"
 #import "GNFileWriterSharer.h"
@@ -109,7 +109,7 @@
 
 @property BOOL visitedLoginOrSignup;
 
-@property MedianEventsManager *eventsManager;
+@property SecretChelSocietyEventsManager *eventsManager;
 @property LEANActionManager *actionManager;
 @property LEANToolbarManager *toolbarManager;
 @property LEANRegexRulesManager *regexRulesManager;
@@ -260,7 +260,7 @@ static NSInteger _currentWindows = 0;
     // to help fix status bar issues when rotating in full-screen video
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(orientationChanged) name:UIDeviceOrientationDidChangeNotification object:nil];
     
-    self.eventsManager = [[MedianEventsManager alloc] initWithWebViewController:self];
+    self.eventsManager = [[SecretChelSocietyEventsManager alloc] initWithWebViewController:self];
     self.actionManager = [[LEANActionManager alloc] initWithWebviewController:self];
     
     self.regexRulesManager = [[LEANRegexRulesManager alloc] initWithWvc:self];

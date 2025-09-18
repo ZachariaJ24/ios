@@ -1,21 +1,21 @@
 //
-//  MedianEventsManager.m
-//  Median
+//  SecretChelSocietyEventsManager.m
+//  SecretChelSociety
 //
 //  Created by Kevz on 6/14/24.
 //  Copyright © 2024 GoNative.io LLC. All rights reserved.
 //
 
-#import "MedianEventsManager.h"
+#import "SecretChelSocietyEventsManager.h"
 @import GoNativeCore;
 
-@interface MedianEventsManager()
+@interface SecretChelSocietyEventsManager()
 @property (weak, nonatomic) LEANWebViewController *wvc;
 @property NSMutableDictionary<NSString *, NSMutableArray *> *queue;
 @property NSMutableDictionary<NSString *, NSNumber *> *subscriptions;
 @end
 
-@implementation MedianEventsManager
+@implementation SecretChelSocietyEventsManager
 
 - (instancetype)initWithWebViewController:(LEANWebViewController *)wvc {
     self = [super init];

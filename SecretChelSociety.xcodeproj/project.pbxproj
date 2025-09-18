@@ -84,7 +84,7 @@
 		37011C962BC40AAE00775CA0 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 37011C952BC40AAE00775CA0 /* PrivacyInfo.xcprivacy */; };
 		374399B62C2229E300B2F92D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 374399B42C2229E300B2F92D /* InfoPlist.strings */; };
 		379E3D432A2147C4001C8A01 /* GNSwiftUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379E3D422A2147C4001C8A01 /* GNSwiftUtilities.swift */; };
-		3909A5A92C1C99E7001F68C3 /* MedianEventsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3909A5A82C1C99E7001F68C3 /* MedianEventsManager.m */; };
+		3909A5A92C1C99E7001F68C3 /* SecretChelSocietyEventsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3909A5A82C1C99E7001F68C3 /* SecretChelSocietyEventsManager.m */; };
 		3946F0282BD0DE7100E74ED5 /* ContextMenuHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3946F0272BD0DE7100E74ED5 /* ContextMenuHandler.swift */; };
 		395C15702B75D19D00E2985D /* LEANWindowsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 395C156F2B75D19D00E2985D /* LEANWindowsManager.m */; };
 		396F42242A970DF9003FD87E /* UIApplication+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396F42232A970DF9003FD87E /* UIApplication+Extensions.swift */; };
@@ -95,7 +95,7 @@
 		39D073812BBB12EA004FF636 /* LEANPDFManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 39D073802BBB12EA004FF636 /* LEANPDFManager.m */; };
 		39DE1B492935E67F0001E926 /* GNLogManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 39DE1B482935E67F0001E926 /* GNLogManager.m */; };
 		39DE1E4D2C82015900E96CFE /* LEANLoadingSpinnerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 39DE1E4C2C82015900E96CFE /* LEANLoadingSpinnerManager.m */; };
-		93DA21EB31AE6F56B651894C /* Pods_MedianIOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B6D83597DFB31F85DB20AAC /* Pods_MedianIOSTests.framework */; };
+		93DA21EB31AE6F56B651894C /* Pods_SecretChelSocietyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B6D83597DFB31F85DB20AAC /* Pods_SecretChelSocietyTests.framework */; };
 		BB3C460E26A9C1F9007D03DA /* GoNativeJSBridgeLibrary.js in Resources */ = {isa = PBXBuildFile; fileRef = BB3C460D26A9C1F9007D03DA /* GoNativeJSBridgeLibrary.js */; };
 		BB6E68A9273C731E004846A3 /* GNJSBridgeInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = BB6E68A8273C731E004846A3 /* GNJSBridgeInterface.m */; };
 		BB9A3B012631D2A7002C38F1 /* LEANIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9A3B002631D2A7002C38F1 /* LEANIcons.swift */; };
@@ -131,7 +131,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0B6D83597DFB31F85DB20AAC /* Pods_MedianIOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MedianIOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B6D83597DFB31F85DB20AAC /* Pods_SecretChelSocietyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SecretChelSocietyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DD94C00913035D3ECC196A1 /* Pods_SecretChelSociety.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SecretChelSociety.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2002B49818A9991300495B3D /* SecretChelSociety.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecretChelSociety.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2002B49B18A9991300495B3D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -147,8 +147,8 @@
 		2002B4B318A9991300495B3D /* LEANWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LEANWebViewController.h; sourceTree = "<group>"; };
 		2002B4B418A9991300495B3D /* LEANWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LEANWebViewController.m; sourceTree = "<group>"; };
 		2002B4B618A9991300495B3D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		2002B4BC18A9991300495B3D /* SecretChelSocietyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedianIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2002B4C518A9991300495B3D /* SecretChelSocietyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MedianIOSTests-Info.plist"; sourceTree = "<group>"; };
+		2002B4BC18A9991300495B3D /* SecretChelSocietyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SecretChelSocietyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2002B4C518A9991300495B3D /* SecretChelSocietyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SecretChelSocietyTests-Info.plist"; sourceTree = "<group>"; };
 		2002B4C718A9991300495B3D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2002B4C918A9991300495B3D /* LeanIOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeanIOSTests.m; sourceTree = "<group>"; };
 		2002B4D918A99A9900495B3D /* RECommonFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RECommonFunctions.h; sourceTree = "<group>"; };
@@ -249,8 +249,8 @@
 		37011C952BC40AAE00775CA0 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		374399B52C2229E300B2F92D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		379E3D422A2147C4001C8A01 /* GNSwiftUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GNSwiftUtilities.swift; sourceTree = "<group>"; };
-		3909A5A82C1C99E7001F68C3 /* MedianEventsManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MedianEventsManager.m; sourceTree = "<group>"; };
-		3909A5AA2C1C99EE001F68C3 /* MedianEventsManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MedianEventsManager.h; sourceTree = "<group>"; };
+		3909A5A82C1C99E7001F68C3 /* SecretChelSocietyEventsManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecretChelSocietyEventsManager.m; sourceTree = "<group>"; };
+		3909A5AA2C1C99EE001F68C3 /* SecretChelSocietyEventsManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecretChelSocietyEventsManager.h; sourceTree = "<group>"; };
 		3946F0272BD0DE7100E74ED5 /* ContextMenuHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenuHandler.swift; sourceTree = "<group>"; };
 		395C156F2B75D19D00E2985D /* LEANWindowsManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LEANWindowsManager.m; sourceTree = "<group>"; };
 		395C15712B75D1A900E2985D /* LEANWindowsManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LEANWindowsManager.h; sourceTree = "<group>"; };
@@ -270,7 +270,7 @@
 		39DE1E4B2C82014300E96CFE /* LEANLoadingSpinnerManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LEANLoadingSpinnerManager.h; sourceTree = "<group>"; };
 		39DE1E4C2C82015900E96CFE /* LEANLoadingSpinnerManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LEANLoadingSpinnerManager.m; sourceTree = "<group>"; };
 		4C74E9233A1532B38445C85A /* Pods-SecretChelSocietyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecretChelSocietyTests.debug.xcconfig"; path = "Target Support Files/Pods-SecretChelSocietyTests/Pods-SecretChelSocietyTests.debug.xcconfig"; sourceTree = "<group>"; };
-		74686CE5E5C79A441C3D2C20 /* Pods-Median.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Median.debug.xcconfig"; path = "Target Support Files/Pods-Median/Pods-Median.debug.xcconfig"; sourceTree = "<group>"; };
+		74686CE5E5C79A441C3D2C20 /* Pods-SecretChelSociety.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecretChelSociety.debug.xcconfig"; path = "Target Support Files/Pods-SecretChelSociety/Pods-SecretChelSociety.debug.xcconfig"; sourceTree = "<group>"; };
 		A790DA6927FDBA77A0DE081F /* Pods-SecretChelSocietyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecretChelSocietyTests.release.xcconfig"; path = "Target Support Files/Pods-SecretChelSocietyTests/Pods-SecretChelSocietyTests.release.xcconfig"; sourceTree = "<group>"; };
 		ABCC221B287D6609B2585E89 /* es-419 */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = "es-419"; path = "es-419.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		BB182FAF2683478900DC8EAA /* LEANDlogDefinition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LEANDlogDefinition.h; sourceTree = "<group>"; };
@@ -286,7 +286,7 @@
 		CFE73C6865B6E0760DF6FED4 /* Pods-SecretChelSociety.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecretChelSociety.debug.xcconfig"; path = "Target Support Files/Pods-SecretChelSociety/Pods-SecretChelSociety.debug.xcconfig"; sourceTree = "<group>"; };
 		F302E6C1D575FFE5B6765ABD /* Pods-SecretChelSociety.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecretChelSociety.release.xcconfig"; path = "Target Support Files/Pods-SecretChelSociety/Pods-SecretChelSociety.release.xcconfig"; sourceTree = "<group>"; };
 		F636E584CE32F782FCEB52E0 /* fr */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
-		F9BBED51E055455D5C4808AF /* Pods-Median.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Median.release.xcconfig"; path = "Target Support Files/Pods-Median/Pods-Median.release.xcconfig"; sourceTree = "<group>"; };
+		F9BBED51E055455D5C4808AF /* Pods-SecretChelSociety.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecretChelSociety.release.xcconfig"; path = "Target Support Files/Pods-SecretChelSociety/Pods-SecretChelSociety.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -318,7 +318,7 @@
 			files = (
 				2002B4C018A9991300495B3D /* UIKit.framework in Frameworks */,
 				2002B4BF18A9991300495B3D /* Foundation.framework in Frameworks */,
-				93DA21EB31AE6F56B651894C /* Pods_MedianIOSTests.framework in Frameworks */,
+				93DA21EB31AE6F56B651894C /* Pods_SecretChelSocietyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,7 +364,7 @@
 				2002B49B18A9991300495B3D /* Foundation.framework */,
 				2002B49D18A9991300495B3D /* CoreGraphics.framework */,
 				2002B49F18A9991300495B3D /* UIKit.framework */,
-				0B6D83597DFB31F85DB20AAC /* Pods_MedianIOSTests.framework */,
+				0B6D83597DFB31F85DB20AAC /* Pods_SecretChelSocietyTests.framework */,
 				1DD94C00913035D3ECC196A1 /* Pods_SecretChelSociety.framework */,
 			);
 			name = Frameworks;
@@ -392,8 +392,8 @@
 				397F6C072AC147B000BD0474 /* LEANHeaders.h */,
 				3946F0272BD0DE7100E74ED5 /* ContextMenuHandler.swift */,
 				3972F5322D59C143009B5279 /* CustomMenu.swift */,
-				3909A5AA2C1C99EE001F68C3 /* MedianEventsManager.h */,
-				3909A5A82C1C99E7001F68C3 /* MedianEventsManager.m */,
+				3909A5AA2C1C99EE001F68C3 /* SecretChelSocietyEventsManager.h */,
+				3909A5A82C1C99E7001F68C3 /* SecretChelSocietyEventsManager.m */,
 				209A964123BABF2D001906F1 /* GNBackgroundAudio.h */,
 				209A964223BABF2D001906F1 /* GNBackgroundAudio.m */,
 				2092E236205C3E83005E8B71 /* GNConfigPreferences.h */,
@@ -555,8 +555,8 @@
 		94421A86163F4578AAF865FD /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				74686CE5E5C79A441C3D2C20 /* Pods-Median.debug.xcconfig */,
-				F9BBED51E055455D5C4808AF /* Pods-Median.release.xcconfig */,
+				74686CE5E5C79A441C3D2C20 /* Pods-SecretChelSociety.debug.xcconfig */,
+				F9BBED51E055455D5C4808AF /* Pods-SecretChelSociety.release.xcconfig */,
 				4C74E9233A1532B38445C85A /* Pods-SecretChelSocietyTests.debug.xcconfig */,
 				A790DA6927FDBA77A0DE081F /* Pods-SecretChelSocietyTests.release.xcconfig */,
 				CFE73C6865B6E0760DF6FED4 /* Pods-SecretChelSociety.debug.xcconfig */,
@@ -591,7 +591,7 @@
 		};
 		2002B4BB18A9991300495B3D /* SecretChelSocietyTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2002B4D018A9991300495B3D /* Build configuration list for PBXNativeTarget "MedianIOSTests" */;
+			buildConfigurationList = 2002B4D018A9991300495B3D /* Build configuration list for PBXNativeTarget "SecretChelSocietyTests" */;
 			buildPhases = (
 				E471A63B369A693E2DC20037 /* [CP] Check Pods Manifest.lock */,
 				2002B4B818A9991300495B3D /* Sources */,
@@ -787,7 +787,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MedianIOSTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-SecretChelSocietyTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -839,7 +839,7 @@
 				39D073812BBB12EA004FF636 /* LEANPDFManager.m in Sources */,
 				2089662718AC6753007FC34F /* LEANLoginManager.m in Sources */,
 				2002B4FC18A99C4100495B3D /* LEANUtilities.m in Sources */,
-				3909A5A92C1C99E7001F68C3 /* MedianEventsManager.m in Sources */,
+				3909A5A92C1C99E7001F68C3 /* SecretChelSocietyEventsManager.m in Sources */,
 				397F6C0C2AC14B4A00BD0474 /* LEANKeyboardManager.m in Sources */,
 				20E49F8219A2C30C00B9343E /* LEANWebViewPool.m in Sources */,
 				2046CAFA1BC0790800714F66 /* GNRegistrationManager.m in Sources */,
@@ -1210,7 +1210,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2002B4D018A9991300495B3D /* Build configuration list for PBXNativeTarget "MedianIOSTests" */ = {
+		2002B4D018A9991300495B3D /* Build configuration list for PBXNativeTarget "SecretChelSocietyTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2002B4D118A9991300495B3D /* Debug */,

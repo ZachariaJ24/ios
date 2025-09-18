@@ -1,6 +1,6 @@
 //
-//  MedianEventsManager.h
-//  MedianIOS
+//  SecretChelSocietyEventsManager.h
+//  SecretChelSociety
 //
 //  Created by Mahusai on 6/14/24.
 //  Copyright © 2024 GoNative.io LLC. All rights reserved.
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface MedianEventsManager : NSObject
+@interface SecretChelSocietyEventsManager : NSObject
 - (instancetype)initWithWebViewController:(LEANWebViewController *)wvc;
 - (void)triggerEvent:(NSString *)eventName data:(NSDictionary *)data;
 - (void)subscribeEvent:(NSString *)eventName;
