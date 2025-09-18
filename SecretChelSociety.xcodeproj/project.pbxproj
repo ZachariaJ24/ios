@@ -269,9 +269,9 @@
 		39DE1B482935E67F0001E926 /* GNLogManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GNLogManager.m; sourceTree = "<group>"; };
 		39DE1E4B2C82014300E96CFE /* LEANLoadingSpinnerManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LEANLoadingSpinnerManager.h; sourceTree = "<group>"; };
 		39DE1E4C2C82015900E96CFE /* LEANLoadingSpinnerManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LEANLoadingSpinnerManager.m; sourceTree = "<group>"; };
-		4C74E9233A1532B38445C85A /* Pods-MedianIOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedianIOSTests.debug.xcconfig"; path = "Target Support Files/Pods-MedianIOSTests/Pods-MedianIOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4C74E9233A1532B38445C85A /* Pods-SecretChelSocietyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecretChelSocietyTests.debug.xcconfig"; path = "Target Support Files/Pods-SecretChelSocietyTests/Pods-SecretChelSocietyTests.debug.xcconfig"; sourceTree = "<group>"; };
 		74686CE5E5C79A441C3D2C20 /* Pods-Median.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Median.debug.xcconfig"; path = "Target Support Files/Pods-Median/Pods-Median.debug.xcconfig"; sourceTree = "<group>"; };
-		A790DA6927FDBA77A0DE081F /* Pods-MedianIOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedianIOSTests.release.xcconfig"; path = "Target Support Files/Pods-MedianIOSTests/Pods-MedianIOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		A790DA6927FDBA77A0DE081F /* Pods-SecretChelSocietyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecretChelSocietyTests.release.xcconfig"; path = "Target Support Files/Pods-SecretChelSocietyTests/Pods-SecretChelSocietyTests.release.xcconfig"; sourceTree = "<group>"; };
 		ABCC221B287D6609B2585E89 /* es-419 */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = "es-419"; path = "es-419.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		BB182FAF2683478900DC8EAA /* LEANDlogDefinition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LEANDlogDefinition.h; sourceTree = "<group>"; };
 		BB3C460D26A9C1F9007D03DA /* GoNativeJSBridgeLibrary.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = GoNativeJSBridgeLibrary.js; sourceTree = "<group>"; };
@@ -557,8 +557,8 @@
 			children = (
 				74686CE5E5C79A441C3D2C20 /* Pods-Median.debug.xcconfig */,
 				F9BBED51E055455D5C4808AF /* Pods-Median.release.xcconfig */,
-				4C74E9233A1532B38445C85A /* Pods-MedianIOSTests.debug.xcconfig */,
-				A790DA6927FDBA77A0DE081F /* Pods-MedianIOSTests.release.xcconfig */,
+				4C74E9233A1532B38445C85A /* Pods-SecretChelSocietyTests.debug.xcconfig */,
+				A790DA6927FDBA77A0DE081F /* Pods-SecretChelSocietyTests.release.xcconfig */,
 				CFE73C6865B6E0760DF6FED4 /* Pods-SecretChelSociety.debug.xcconfig */,
 				F302E6C1D575FFE5B6765ABD /* Pods-SecretChelSociety.release.xcconfig */,
 			);
@@ -1147,7 +1147,7 @@
 		};
 		2002B4D118A9991300495B3D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4C74E9233A1532B38445C85A /* Pods-MedianIOSTests.debug.xcconfig */;
+			baseConfigurationReference = 4C74E9233A1532B38445C85A /* Pods-SecretChelSocietyTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GonativeIO.app/GonativeIO";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1161,7 +1161,7 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "LeanIOSTests/MedianIOSTests-Info.plist";
+				INFOPLIST_FILE = "LeanIOSTests/SecretChelSocietyTests-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.gonative.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = SecretChelSocietyTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
@@ -1171,7 +1171,7 @@
 		};
 		2002B4D218A9991300495B3D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A790DA6927FDBA77A0DE081F /* Pods-MedianIOSTests.release.xcconfig */;
+			baseConfigurationReference = A790DA6927FDBA77A0DE081F /* Pods-SecretChelSocietyTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GonativeIO.app/GonativeIO";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1181,7 +1181,7 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LeanIOS/GonativeIOS-Prefix.pch";
-				INFOPLIST_FILE = "LeanIOSTests/MedianIOSTests-Info.plist";
+				INFOPLIST_FILE = "LeanIOSTests/SecretChelSocietyTests-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.gonative.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = SecretChelSocietyTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
